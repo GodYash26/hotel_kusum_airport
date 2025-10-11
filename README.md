@@ -55,8 +55,8 @@ Ensure you have installed:
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/kusum-airport-hotel.git
-cd kusum-airport-hotel
+git clone https://github.com/God-yash12/hotel_kusum_airport.git
+cd hotel_kusum_airport
 ```
 
 ---
@@ -72,7 +72,7 @@ PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
 STRIPE_SECRET_KEY=your_stripe_secret_key
-CLIENT_URL=http://localhost:5173
+FRONTEND_URL=http://localhost:5173
 ```
 
 #### 💻 Frontend `.env`
@@ -136,7 +136,7 @@ KusumAirportHotel/
 │   │   ├── routes/        # Express routes
 │   │   └── utils/         # Helper functions, middlewares
 │   ├── package.json
-│   └── server.js
+│   └── index.js
 │
 ├── frontend/
 │   ├── src/
@@ -165,7 +165,7 @@ KusumAirportHotel/
 
 ## 🔐 Authentication Flow
 
-* **Login / Register** with JWT-based authentication.
+* **Admin Login ** with JWT-based authentication.
 * Tokens stored securely in HTTP-only cookies.
 * Protected routes for both user and admin dashboards.
 
@@ -180,15 +180,6 @@ KusumAirportHotel/
 
 ---
 
-## 🥯 Testing
-
-You can run unit and integration tests (if configured) using:
-
-```bash
-npm test
-```
-
----
 
 ## 🌍 Deployment
 
@@ -217,3 +208,4 @@ Ensure environment variables are configured on the host platform.
 **🏢 Project:** Kusum Airport Hotel Booking System
 **🌐 Tech Stack:** MERN + Stripe + TanStack Query + Zod
 **🗓 Year:** 2025
+
